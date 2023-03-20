@@ -8,11 +8,19 @@ date: "2023-03-18"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## oap using diagrams[dot]net
 
 ```{r}
 htmltools::includeHTML("test-oap.drawio.html")
 ```
+
+## oap using {epicontacts}
+
+```{r}
+htmltools::includeHTML("test-epicontact02.html")
+```
+
+## how to embed html content
 
 ```{r}
 knitr::include_url("https://epiverse-trace.github.io/episoap/")
